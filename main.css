@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all 0.2s;
+}
+
+.hide{
+    display: none;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: antiquewhite;
+}
+
+.cart-button{
+    margin: 5%;
+    background-color: rgb(164, 147, 180);
+}
+
+.cart-button:hover{
+    background-color: aqua;
+}
+
+.goods-list{
+    display: flex;
+}
+
+.goods-item{
+    margin: 2% 2% 0 2%;
+    width: 20%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.prod-img{
+    width: 100%;
+}
